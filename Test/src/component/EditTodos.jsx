@@ -3,6 +3,7 @@ import React from 'react'
 function EditTodos({ isOpen, onClose, editTitle, editTaskStatus, setEditTitle, editDescription, setEditDescription, setEditTaskStatus, handleUpdateTask }) {
   
     if (!isOpen) return null;
+    // console.log("")
 
     return (
     <div className="fixed inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center">
