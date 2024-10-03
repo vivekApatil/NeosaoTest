@@ -1,0 +1,3 @@
+.scrollbar-thin::-webkit-scrollbar {
+    width: 6px; /* Width of the scrollbar in Chrome/Safari/Edge */
+  }
